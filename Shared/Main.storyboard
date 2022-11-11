@@ -10,8 +10,8 @@
         <!--Cara ou Coroa-->
         <scene sceneID="BvE-ft-oKk">
             <objects>
-                <viewController id="jbJ-fa-ZeV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d7f-Og-bVr">
+                <viewController id="jbJ-fa-ZeV" customClass="UICollectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d7f-Og-bVr" customClass="viewController" customModule="CaraCoroa" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="806" y="72"/>
         </scene>
-        <!--View Controller-->
+        <!--Jogo View Controller-->
         <scene sceneID="EdR-4h-qNp">
             <objects>
-                <viewController id="Ckw-Gk-vng" sceneMemberID="viewController">
+                <viewController id="Ckw-Gk-vng" customClass="JogoViewController" customModule="CaraCoroa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="COQ-cr-rul">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
