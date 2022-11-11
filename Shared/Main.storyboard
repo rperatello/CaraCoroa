@@ -10,7 +10,7 @@
         <!--Cara ou Coroa-->
         <scene sceneID="BvE-ft-oKk">
             <objects>
-                <viewController id="jbJ-fa-ZeV" customClass="UICollectionViewController" sceneMemberID="viewController">
+                <viewController id="jbJ-fa-ZeV" customClass="ViewController" customModule="CaraCoroa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d7f-Og-bVr" customClass="viewController" customModule="CaraCoroa" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 <rect key="frame" x="52" y="440.5" width="271" height="74"/>
                                 <state key="normal" image="botao_jogar"/>
                                 <connections>
-                                    <segue destination="Ckw-Gk-vng" kind="show" id="DS6-7S-nXL"/>
+                                    <segue destination="Ckw-Gk-vng" kind="show" identifier="jogar" id="DS6-7S-nXL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -61,6 +61,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jUd-pM-KuJ"/>
+                    <connections>
+                        <outlet property="imagemJogo" destination="LlY-Ma-9ki" id="uLt-2w-8HB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2VA-fm-xTP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

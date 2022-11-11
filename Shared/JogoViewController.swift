@@ -8,9 +8,20 @@
 import UIKit
 
 class JogoViewController: UIViewController {
+    
+    var valorAleatorio : Int = 0
 
+    @IBOutlet weak var imagemJogo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if valorAleatorio == 0 {
+            imagemJogo.image = UIImage(named: "moeda_cara")
+        }
+        else {
+            imagemJogo.image = UIImage(named: "moeda_coroa")
+        }
 
         // Do any additional setup after loading the view.
     }

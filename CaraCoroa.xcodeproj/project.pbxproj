@@ -10,13 +10,11 @@
 		DB1ACACE291D683B0077636C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACACD291D683B0077636C /* Tests_iOS.swift */; };
 		DB1ACAD9291D683B0077636C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAD8291D683B0077636C /* Tests_macOS.swift */; };
 		DB1ACADB291D683B0077636C /* CaraCoroaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAB2291D682D0077636C /* CaraCoroaApp.swift */; };
-		DB1ACADC291D683B0077636C /* CaraCoroaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAB2291D682D0077636C /* CaraCoroaApp.swift */; };
 		DB1ACADD291D683B0077636C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAB3291D682D0077636C /* ContentView.swift */; };
-		DB1ACADE291D683B0077636C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAB3291D682D0077636C /* ContentView.swift */; };
 		DB1ACADF291D683B0077636C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1ACAB4291D683A0077636C /* Assets.xcassets */; };
-		DB1ACAE0291D683B0077636C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1ACAB4291D683A0077636C /* Assets.xcassets */; };
 		DB1ACB0B291DC09B0077636C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1ACB0A291DC09B0077636C /* Main.storyboard */; };
 		DB1ACB12291DEEAD0077636C /* JogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACB11291DEEAD0077636C /* JogoViewController.swift */; };
+		DB1ACB2B291DF7DF0077636C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACB2A291DF7DF0077636C /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +51,7 @@
 		DB1ACADA291D683B0077636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1ACB0A291DC09B0077636C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DB1ACB11291DEEAD0077636C /* JogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoViewController.swift; sourceTree = "<group>"; };
+		DB1ACB2A291DF7DF0077636C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +105,7 @@
 				DB1ACAB3291D682D0077636C /* ContentView.swift */,
 				DB1ACAB4291D683A0077636C /* Assets.xcassets */,
 				DB1ACB0A291DC09B0077636C /* Main.storyboard */,
+				DB1ACB2A291DF7DF0077636C /* ViewController.swift */,
 				DB1ACB11291DEEAD0077636C /* JogoViewController.swift */,
 			);
 			path = Shared;
@@ -290,7 +290,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1ACAE0291D683B0077636C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +316,7 @@
 			files = (
 				DB1ACADD291D683B0077636C /* ContentView.swift in Sources */,
 				DB1ACADB291D683B0077636C /* CaraCoroaApp.swift in Sources */,
+				DB1ACB2B291DF7DF0077636C /* ViewController.swift in Sources */,
 				DB1ACB12291DEEAD0077636C /* JogoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,8 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1ACADE291D683B0077636C /* ContentView.swift in Sources */,
-				DB1ACADC291D683B0077636C /* CaraCoroaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,7 +604,6 @@
 		DB1ACAED291D683B0077636C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Tests macOS/Info.plist";
@@ -627,7 +624,6 @@
 		DB1ACAEE291D683B0077636C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Tests macOS/Info.plist";
