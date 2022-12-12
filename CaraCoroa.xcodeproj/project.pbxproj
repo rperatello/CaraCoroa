@@ -7,76 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB1ACACE291D683B0077636C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACACD291D683B0077636C /* Tests_iOS.swift */; };
-		DB1ACAD9291D683B0077636C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAD8291D683B0077636C /* Tests_macOS.swift */; };
-		DB1ACADB291D683B0077636C /* CaraCoroaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAB2291D682D0077636C /* CaraCoroaApp.swift */; };
-		DB1ACADD291D683B0077636C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACAB3291D682D0077636C /* ContentView.swift */; };
-		DB1ACADF291D683B0077636C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1ACAB4291D683A0077636C /* Assets.xcassets */; };
-		DB1ACB0B291DC09B0077636C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1ACB0A291DC09B0077636C /* Main.storyboard */; };
-		DB1ACB12291DEEAD0077636C /* JogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACB11291DEEAD0077636C /* JogoViewController.swift */; };
-		DB1ACB2B291DF7DF0077636C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1ACB2A291DF7DF0077636C /* ViewController.swift */; };
+		DB8D34402946D1E50088045F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D343F2946D1E50088045F /* AppDelegate.swift */; };
+		DB8D34422946D1E50088045F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D34412946D1E50088045F /* SceneDelegate.swift */; };
+		DB8D34442946D1E50088045F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D34432946D1E50088045F /* ViewController.swift */; };
+		DB8D34472946D1E50088045F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8D34452946D1E50088045F /* Main.storyboard */; };
+		DB8D344A2946D1E50088045F /* CC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB8D34482946D1E50088045F /* CC.xcdatamodeld */; };
+		DB8D344C2946D1FF0088045F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8D344B2946D1FF0088045F /* Assets.xcassets */; };
+		DB8D344F2946D1FF0088045F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8D344D2946D1FF0088045F /* LaunchScreen.storyboard */; };
+		DB8D345C2946D3DF0088045F /* botao_voltar.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8D34572946D3DF0088045F /* botao_voltar.png */; };
+		DB8D345D2946D3DF0088045F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8D34582946D3DF0088045F /* logo.png */; };
+		DB8D345E2946D3DF0088045F /* moeda_cara.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8D34592946D3DF0088045F /* moeda_cara.png */; };
+		DB8D345F2946D3DF0088045F /* moeda_coroa.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8D345A2946D3DF0088045F /* moeda_coroa.png */; };
+		DB8D34602946D3DF0088045F /* botao_jogar.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8D345B2946D3DF0088045F /* botao_jogar.png */; };
+		DB8D34642946D97D0088045F /* JogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D34632946D97D0088045F /* JogoViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DB1ACACA291D683B0077636C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB1ACAAD291D682B0077636C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB1ACAB8291D683A0077636C;
-			remoteInfo = "CaraCoroa (iOS)";
-		};
-		DB1ACAD5291D683B0077636C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB1ACAAD291D682B0077636C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB1ACAC0291D683A0077636C;
-			remoteInfo = "CaraCoroa (macOS)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DB1ACAB2291D682D0077636C /* CaraCoroaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraCoroaApp.swift; sourceTree = "<group>"; };
-		DB1ACAB3291D682D0077636C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DB1ACAB4291D683A0077636C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB1ACAB9291D683A0077636C /* CaraCoroa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraCoroa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB1ACABC291D683A0077636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB1ACAC1291D683A0077636C /* CaraCoroa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraCoroa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB1ACAC3291D683A0077636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB1ACAC4291D683B0077636C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		DB1ACAC9291D683B0077636C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB1ACACD291D683B0077636C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		DB1ACACF291D683B0077636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB1ACAD4291D683B0077636C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB1ACAD8291D683B0077636C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		DB1ACADA291D683B0077636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB1ACB0A291DC09B0077636C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DB1ACB11291DEEAD0077636C /* JogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoViewController.swift; sourceTree = "<group>"; };
-		DB1ACB2A291DF7DF0077636C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB8D343C2946D1E50088045F /* CC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8D343F2946D1E50088045F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB8D34412946D1E50088045F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB8D34432946D1E50088045F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB8D34462946D1E50088045F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB8D34492946D1E50088045F /* CC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CC.xcdatamodel; sourceTree = "<group>"; };
+		DB8D344B2946D1FF0088045F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8D344E2946D1FF0088045F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB8D34502946D1FF0088045F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8D34572946D3DF0088045F /* botao_voltar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botao_voltar.png; path = "../../CaraCoroa-20221027/botao_voltar.png"; sourceTree = "<group>"; };
+		DB8D34582946D3DF0088045F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../CaraCoroa-20221027/logo.png"; sourceTree = "<group>"; };
+		DB8D34592946D3DF0088045F /* moeda_cara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moeda_cara.png; path = "../../CaraCoroa-20221027/moeda_cara.png"; sourceTree = "<group>"; };
+		DB8D345A2946D3DF0088045F /* moeda_coroa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moeda_coroa.png; path = "../../CaraCoroa-20221027/moeda_coroa.png"; sourceTree = "<group>"; };
+		DB8D345B2946D3DF0088045F /* botao_jogar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botao_jogar.png; path = "../../CaraCoroa-20221027/botao_jogar.png"; sourceTree = "<group>"; };
+		DB8D34632946D97D0088045F /* JogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB1ACAB6291D683A0077636C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACABE291D683A0077636C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACAC6291D683B0077636C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACAD1291D683B0077636C /* Frameworks */ = {
+		DB8D34392946D1E50088045F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,176 +51,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB1ACAAC291D682B0077636C = {
+		DB8D34332946D1E50088045F = {
 			isa = PBXGroup;
 			children = (
-				DB1ACAB1291D682D0077636C /* Shared */,
-				DB1ACABB291D683A0077636C /* iOS */,
-				DB1ACAC2291D683A0077636C /* macOS */,
-				DB1ACACC291D683B0077636C /* Tests iOS */,
-				DB1ACAD7291D683B0077636C /* Tests macOS */,
-				DB1ACABA291D683A0077636C /* Products */,
+				DB8D343E2946D1E50088045F /* CC */,
+				DB8D343D2946D1E50088045F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DB1ACAB1291D682D0077636C /* Shared */ = {
+		DB8D343D2946D1E50088045F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB1ACAB2291D682D0077636C /* CaraCoroaApp.swift */,
-				DB1ACAB3291D682D0077636C /* ContentView.swift */,
-				DB1ACAB4291D683A0077636C /* Assets.xcassets */,
-				DB1ACB0A291DC09B0077636C /* Main.storyboard */,
-				DB1ACB2A291DF7DF0077636C /* ViewController.swift */,
-				DB1ACB11291DEEAD0077636C /* JogoViewController.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		DB1ACABA291D683A0077636C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DB1ACAB9291D683A0077636C /* CaraCoroa.app */,
-				DB1ACAC1291D683A0077636C /* CaraCoroa.app */,
-				DB1ACAC9291D683B0077636C /* Tests iOS.xctest */,
-				DB1ACAD4291D683B0077636C /* Tests macOS.xctest */,
+				DB8D343C2946D1E50088045F /* CC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB1ACABB291D683A0077636C /* iOS */ = {
+		DB8D343E2946D1E50088045F /* CC */ = {
 			isa = PBXGroup;
 			children = (
-				DB1ACABC291D683A0077636C /* Info.plist */,
+				DB8D343F2946D1E50088045F /* AppDelegate.swift */,
+				DB8D34412946D1E50088045F /* SceneDelegate.swift */,
+				DB8D34432946D1E50088045F /* ViewController.swift */,
+				DB8D34632946D97D0088045F /* JogoViewController.swift */,
+				DB8D34452946D1E50088045F /* Main.storyboard */,
+				DB8D344B2946D1FF0088045F /* Assets.xcassets */,
+				DB8D345B2946D3DF0088045F /* botao_jogar.png */,
+				DB8D34572946D3DF0088045F /* botao_voltar.png */,
+				DB8D34582946D3DF0088045F /* logo.png */,
+				DB8D34592946D3DF0088045F /* moeda_cara.png */,
+				DB8D345A2946D3DF0088045F /* moeda_coroa.png */,
+				DB8D344D2946D1FF0088045F /* LaunchScreen.storyboard */,
+				DB8D34502946D1FF0088045F /* Info.plist */,
+				DB8D34482946D1E50088045F /* CC.xcdatamodeld */,
 			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		DB1ACAC2291D683A0077636C /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				DB1ACAC3291D683A0077636C /* Info.plist */,
-				DB1ACAC4291D683B0077636C /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		DB1ACACC291D683B0077636C /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DB1ACACD291D683B0077636C /* Tests_iOS.swift */,
-				DB1ACACF291D683B0077636C /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		DB1ACAD7291D683B0077636C /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				DB1ACAD8291D683B0077636C /* Tests_macOS.swift */,
-				DB1ACADA291D683B0077636C /* Info.plist */,
-			);
-			path = "Tests macOS";
+			path = CC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB1ACAB8291D683A0077636C /* CaraCoroa (iOS) */ = {
+		DB8D343B2946D1E50088045F /* CC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB1ACAE3291D683B0077636C /* Build configuration list for PBXNativeTarget "CaraCoroa (iOS)" */;
+			buildConfigurationList = DB8D34532946D1FF0088045F /* Build configuration list for PBXNativeTarget "CC" */;
 			buildPhases = (
-				DB1ACAB5291D683A0077636C /* Sources */,
-				DB1ACAB6291D683A0077636C /* Frameworks */,
-				DB1ACAB7291D683A0077636C /* Resources */,
+				DB8D34382946D1E50088045F /* Sources */,
+				DB8D34392946D1E50088045F /* Frameworks */,
+				DB8D343A2946D1E50088045F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CaraCoroa (iOS)";
-			productName = "CaraCoroa (iOS)";
-			productReference = DB1ACAB9291D683A0077636C /* CaraCoroa.app */;
+			name = CC;
+			productName = CC;
+			productReference = DB8D343C2946D1E50088045F /* CC.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DB1ACAC0291D683A0077636C /* CaraCoroa (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB1ACAE6291D683B0077636C /* Build configuration list for PBXNativeTarget "CaraCoroa (macOS)" */;
-			buildPhases = (
-				DB1ACABD291D683A0077636C /* Sources */,
-				DB1ACABE291D683A0077636C /* Frameworks */,
-				DB1ACABF291D683A0077636C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CaraCoroa (macOS)";
-			productName = "CaraCoroa (macOS)";
-			productReference = DB1ACAC1291D683A0077636C /* CaraCoroa.app */;
-			productType = "com.apple.product-type.application";
-		};
-		DB1ACAC8291D683B0077636C /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB1ACAE9291D683B0077636C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				DB1ACAC5291D683B0077636C /* Sources */,
-				DB1ACAC6291D683B0077636C /* Frameworks */,
-				DB1ACAC7291D683B0077636C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB1ACACB291D683B0077636C /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = DB1ACAC9291D683B0077636C /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		DB1ACAD3291D683B0077636C /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB1ACAEC291D683B0077636C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				DB1ACAD0291D683B0077636C /* Sources */,
-				DB1ACAD1291D683B0077636C /* Frameworks */,
-				DB1ACAD2291D683B0077636C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB1ACAD6291D683B0077636C /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = DB1ACAD4291D683B0077636C /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB1ACAAD291D682B0077636C /* Project object */ = {
+		DB8D34342946D1E50088045F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					DB1ACAB8291D683A0077636C = {
+					DB8D343B2946D1E50088045F = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					DB1ACAC0291D683A0077636C = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					DB1ACAC8291D683B0077636C = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = DB1ACAB8291D683A0077636C;
-					};
-					DB1ACAD3291D683B0077636C = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = DB1ACAC0291D683A0077636C;
 					};
 				};
 			};
-			buildConfigurationList = DB1ACAB0291D682B0077636C /* Build configuration list for PBXProject "CaraCoroa" */;
+			buildConfigurationList = DB8D34372946D1E50088045F /* Build configuration list for PBXProject "CC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,104 +130,70 @@
 				en,
 				Base,
 			);
-			mainGroup = DB1ACAAC291D682B0077636C;
-			productRefGroup = DB1ACABA291D683A0077636C /* Products */;
+			mainGroup = DB8D34332946D1E50088045F;
+			productRefGroup = DB8D343D2946D1E50088045F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB1ACAB8291D683A0077636C /* CaraCoroa (iOS) */,
-				DB1ACAC0291D683A0077636C /* CaraCoroa (macOS) */,
-				DB1ACAC8291D683B0077636C /* Tests iOS */,
-				DB1ACAD3291D683B0077636C /* Tests macOS */,
+				DB8D343B2946D1E50088045F /* CC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB1ACAB7291D683A0077636C /* Resources */ = {
+		DB8D343A2946D1E50088045F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1ACADF291D683B0077636C /* Assets.xcassets in Resources */,
-				DB1ACB0B291DC09B0077636C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACABF291D683A0077636C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACAC7291D683B0077636C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACAD2291D683B0077636C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DB8D344F2946D1FF0088045F /* LaunchScreen.storyboard in Resources */,
+				DB8D34602946D3DF0088045F /* botao_jogar.png in Resources */,
+				DB8D345E2946D3DF0088045F /* moeda_cara.png in Resources */,
+				DB8D345D2946D3DF0088045F /* logo.png in Resources */,
+				DB8D345F2946D3DF0088045F /* moeda_coroa.png in Resources */,
+				DB8D344C2946D1FF0088045F /* Assets.xcassets in Resources */,
+				DB8D34472946D1E50088045F /* Main.storyboard in Resources */,
+				DB8D345C2946D3DF0088045F /* botao_voltar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DB1ACAB5291D683A0077636C /* Sources */ = {
+		DB8D34382946D1E50088045F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1ACADD291D683B0077636C /* ContentView.swift in Sources */,
-				DB1ACADB291D683B0077636C /* CaraCoroaApp.swift in Sources */,
-				DB1ACB2B291DF7DF0077636C /* ViewController.swift in Sources */,
-				DB1ACB12291DEEAD0077636C /* JogoViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACABD291D683A0077636C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACAC5291D683B0077636C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB1ACACE291D683B0077636C /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB1ACAD0291D683B0077636C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB1ACAD9291D683B0077636C /* Tests_macOS.swift in Sources */,
+				DB8D34442946D1E50088045F /* ViewController.swift in Sources */,
+				DB8D344A2946D1E50088045F /* CC.xcdatamodeld in Sources */,
+				DB8D34402946D1E50088045F /* AppDelegate.swift in Sources */,
+				DB8D34422946D1E50088045F /* SceneDelegate.swift in Sources */,
+				DB8D34642946D97D0088045F /* JogoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DB1ACACB291D683B0077636C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB1ACAB8291D683A0077636C /* CaraCoroa (iOS) */;
-			targetProxy = DB1ACACA291D683B0077636C /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		DB8D34452946D1E50088045F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8D34462946D1E50088045F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
 		};
-		DB1ACAD6291D683B0077636C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB1ACAC0291D683A0077636C /* CaraCoroa (macOS) */;
-			targetProxy = DB1ACAD5291D683B0077636C /* PBXContainerItemProxy */;
+		DB8D344D2946D1FF0088045F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8D344E2946D1FF0088045F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DB1ACAE1291D683B0077636C /* Debug */ = {
+		DB8D34512946D1FF0088045F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,15 +244,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		DB1ACAE2291D683B0077636C /* Release */ = {
+		DB8D34522946D1FF0088045F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -464,232 +299,87 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		DB1ACAE4291D683B0077636C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = rperatello.com.br.CaraCoroa;
-				PRODUCT_NAME = CaraCoroa;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DB1ACAE5291D683B0077636C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = rperatello.com.br.CaraCoroa;
-				PRODUCT_NAME = CaraCoroa;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DB1ACAE7291D683B0077636C /* Debug */ = {
+		DB8D34542946D1FF0088045F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = CC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rperatello.com.br.CaraCoroa;
-				PRODUCT_NAME = CaraCoroa;
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = rperatello.com.br.CC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DB1ACAE8291D683B0077636C /* Release */ = {
+		DB8D34552946D1FF0088045F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rperatello.com.br.CaraCoroa;
-				PRODUCT_NAME = CaraCoroa;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		DB1ACAEA291D683B0077636C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = CC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rperatello.com.br.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = rperatello.com.br.CC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CaraCoroa (iOS)";
-			};
-			name = Debug;
-		};
-		DB1ACAEB291D683B0077636C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rperatello.com.br.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CaraCoroa (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DB1ACAED291D683B0077636C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "rperatello.com.br.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "CaraCoroa (macOS)";
-			};
-			name = Debug;
-		};
-		DB1ACAEE291D683B0077636C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "rperatello.com.br.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "CaraCoroa (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB1ACAB0291D682B0077636C /* Build configuration list for PBXProject "CaraCoroa" */ = {
+		DB8D34372946D1E50088045F /* Build configuration list for PBXProject "CC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB1ACAE1291D683B0077636C /* Debug */,
-				DB1ACAE2291D683B0077636C /* Release */,
+				DB8D34512946D1FF0088045F /* Debug */,
+				DB8D34522946D1FF0088045F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB1ACAE3291D683B0077636C /* Build configuration list for PBXNativeTarget "CaraCoroa (iOS)" */ = {
+		DB8D34532946D1FF0088045F /* Build configuration list for PBXNativeTarget "CC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB1ACAE4291D683B0077636C /* Debug */,
-				DB1ACAE5291D683B0077636C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB1ACAE6291D683B0077636C /* Build configuration list for PBXNativeTarget "CaraCoroa (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB1ACAE7291D683B0077636C /* Debug */,
-				DB1ACAE8291D683B0077636C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB1ACAE9291D683B0077636C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB1ACAEA291D683B0077636C /* Debug */,
-				DB1ACAEB291D683B0077636C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB1ACAEC291D683B0077636C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB1ACAED291D683B0077636C /* Debug */,
-				DB1ACAEE291D683B0077636C /* Release */,
+				DB8D34542946D1FF0088045F /* Debug */,
+				DB8D34552946D1FF0088045F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB8D34482946D1E50088045F /* CC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB8D34492946D1E50088045F /* CC.xcdatamodel */,
+			);
+			currentVersion = DB8D34492946D1E50088045F /* CC.xcdatamodel */;
+			path = CC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = DB1ACAAD291D682B0077636C /* Project object */;
+	rootObject = DB8D34342946D1E50088045F /* Project object */;
 }

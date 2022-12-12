@@ -1,16 +1,16 @@
 //
 //  JogoViewController.swift
-//  CaraCoroa
+//  CC
 //
-//  Created by Roger Peratello on 10/11/22.
+//  Created by Roger Peratello on 12/12/22.
 //
 
 import UIKit
 
 class JogoViewController: UIViewController {
-    
-    var valorAleatorio : Int = 0
 
+    var valorAleatorio : Int = 0
+    
     @IBOutlet weak var imagemJogo: UIImageView!
     
     override func viewDidLoad() {
@@ -25,8 +25,11 @@ class JogoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
 
+    @IBAction func voltar(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fRY-64-VEC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cara ou Coroa-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="sdd-gE-X9P">
+                                <rect key="frame" x="46.5" y="371" width="321" height="154"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQy-nA-G0J">
+                                <rect key="frame" x="71.5" y="555" width="271" height="74"/>
+                                <state key="normal" image="botao_jogar.png"/>
+                                <connections>
+                                    <segue destination="kdE-Qv-vqA" kind="show" identifier="jogar" id="WwF-fG-j4a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.28855155784483755" green="0.74608522649999998" blue="0.4984525491074237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eQy-nA-G0J" firstAttribute="top" secondItem="sdd-gE-X9P" secondAttribute="bottom" constant="30" id="BEC-Qy-2WD"/>
+                            <constraint firstItem="sdd-gE-X9P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NQH-gm-PPr"/>
+                            <constraint firstItem="eQy-nA-G0J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="elr-e5-z8m"/>
+                            <constraint firstItem="sdd-gE-X9P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jc6-bp-rBn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cara ou Coroa" id="wVV-kJ-15j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050.7246376811595" y="133.92857142857142"/>
+        </scene>
+        <!--Jogo View Controller-->
+        <scene sceneID="l4c-uy-ROj">
+            <objects>
+                <viewController id="kdE-Qv-vqA" customClass="JogoViewController" customModule="CC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P9S-1X-dlW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moeda_cara.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xiw-zp-PEe">
+                                <rect key="frame" x="54.5" y="296" width="305" height="304"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdA-RE-aGh">
+                                <rect key="frame" x="83" y="620" width="248" height="66"/>
+                                <state key="normal" image="botao_voltar.png"/>
+                                <connections>
+                                    <action selector="voltar:" destination="kdE-Qv-vqA" eventType="touchUpInside" id="zlm-OU-BJz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="q1g-wB-bOK"/>
+                        <color key="backgroundColor" red="0.39495555487355999" green="0.74249321219999997" blue="0.56360498714522611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bdA-RE-aGh" firstAttribute="centerX" secondItem="P9S-1X-dlW" secondAttribute="centerX" id="EEM-ns-exX"/>
+                            <constraint firstItem="Xiw-zp-PEe" firstAttribute="centerY" secondItem="P9S-1X-dlW" secondAttribute="centerY" id="bAG-bG-TUY"/>
+                            <constraint firstItem="bdA-RE-aGh" firstAttribute="top" secondItem="Xiw-zp-PEe" secondAttribute="bottom" constant="20" id="yDr-BQ-Dfw"/>
+                            <constraint firstItem="Xiw-zp-PEe" firstAttribute="centerX" secondItem="P9S-1X-dlW" secondAttribute="centerX" id="z7m-ZL-x4M"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dRg-K2-hdP"/>
+                    <connections>
+                        <outlet property="imagemJogo" destination="Xiw-zp-PEe" id="Zug-Sr-NkT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vIw-AF-XQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1942.0289855072465" y="133.92857142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QYy-iN-NLn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fRY-64-VEC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="isJ-HA-yzy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YPT-rq-fm3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFE-G8-eW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="botao_jogar.png" width="271" height="74"/>
+        <image name="botao_voltar.png" width="248" height="66"/>
+        <image name="logo.png" width="321" height="154"/>
+        <image name="moeda_cara.png" width="305" height="304"/>
+    </resources>
+</document>
